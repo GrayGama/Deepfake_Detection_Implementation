@@ -1,4 +1,4 @@
-## Image Forgery Detection using EfficientNetsand Multi-attentional Methods at different levels of JPEG Compression
+## Image Forgery Detection using EfficientNets and Multi-attentional Methods at different levels of JPEG Compression
 _Worked done by Marcelo Galindo 2024_ 
 
 ### Motivation of the project
@@ -24,6 +24,7 @@ The Dataset Preparation consisted in collect and preprocess Faceforensics++ data
 
 ### Dataset used
 The FaceForensics++ dataset is a large-scale benchmark dataset designed for deepfake and facial manipulation detection. It contains over 1,000 original videos of people speaking, which have been manipulated using several face-editing and deepfake techniques, such as DeepFakes, Face2Face, FaceSwap, and NeuralTextures.
+
 ![System diagram](imgs/Dataset_example.png)
 
 ### JPEG Lossy Compression utilizing MozJPEG
