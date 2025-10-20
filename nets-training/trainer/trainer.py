@@ -1,8 +1,3 @@
-# author: Zhiyuan Yan
-# email: zhiyuanyan@link.cuhk.edu.cn
-# date: 2023-03-30
-# description: trainer
-
 import os
 import sys
 import pickle
@@ -424,3 +419,8 @@ class Trainer(object):
     def inference(self, data_dict):
         predictions = self.model(data_dict, inference=True)
         return predictions
+
+# author: Zhiyuan Yan
+# email: zhiyuanyan@link.cuhk.edu.cn
+# date: 2023-03-30
+# description: trainer
